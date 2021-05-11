@@ -1,0 +1,58 @@
+.App {
+  text-align: center;
+}
+
+.font-link{
+  font-family: 'Anton', sans-serif;
+}
+
+
+.header {
+  background-color: #282c34;
+  min-height: 100vh;
+  width:100vw;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: flex-start;
+  font-size: calc(30px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+.box{
+  display:flex;
+  position:absolute;
+  left:60%;
+  transform: translate(-45%, -1%);
+  width: 30vh;
+  height:60vh;
+  padding: 17%;
+  top:15%;
+  border: 1px solid grey;
+  background-color: whitesmoke;
+  border:1px solid teal;
+}
+
+.logo{
+width:75px;
+height:75px;
+border-radius:50%;
+border:3px solid teal;
+position:absolute;
+top:4%;
+left:8%;
+}
+.sidebar{
+  float: left;
+  width: 20vw;
+  margin:0.5%;
+  height:100vh;
+  top: 15%;
+  font-size:0.75em;
+  font-style: italic;
+  color:white;
+  position:absolute;
+}
